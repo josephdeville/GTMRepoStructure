@@ -1,0 +1,50 @@
+{
+  "deals": [
+    {
+      "salesforce_id": "006EXAMPLE001",
+      "account_name": "Acme Corp",
+      "account_id": "001EXAMPLE001",
+      "deal_name": "Acme Corp - Enterprise License",
+      "stage": "Closed Won",
+      "close_date": "2025-06-15",
+      "arr": 75000,
+      "historical_arr": [
+        {"date": "2024-06-15", "arr": 50000},
+        {"date": "2025-06-15", "arr": 75000}
+      ],
+      "industry": "Financial Services",
+      "headcount": 500,
+      "segment": "Mid-Market",
+      "champion_contact_id": "003EXAMPLE001",
+      "products": ["Core Platform", "Analytics Add-on"],
+      "deal_source": "Outbound",
+      "sales_cycle_days": 62,
+      "created_date": "2025-04-14"
+    },
+    {
+      "salesforce_id": "006EXAMPLE002",
+      "account_name": "TechStart Inc",
+      "account_id": "001EXAMPLE002",
+      "deal_name": "TechStart Inc - Growth Plan",
+      "stage": "Closed Won",
+      "close_date": "2025-08-22",
+      "arr": 25000,
+      "historical_arr": [
+        {"date": "2025-08-22", "arr": 25000}
+      ],
+      "industry": "SaaS",
+      "headcount": 85,
+      "segment": "SMB",
+      "champion_contact_id": "003EXAMPLE002",
+      "products": ["Core Platform"],
+      "deal_source": "Inbound",
+      "sales_cycle_days": 21,
+      "created_date": "2025-08-01"
+    }
+  ],
+  "_metadata": {
+    "exported_date": "2025-12-01",
+    "source": "Salesforce",
+    "total_records": 2
+  }
+}

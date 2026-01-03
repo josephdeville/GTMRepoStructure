@@ -1,0 +1,51 @@
+{
+  "accounts": [
+    {
+      "account_id": "001EXAMPLE001",
+      "name": "Acme Corp",
+      "domain": "acmecorp.com",
+      "industry": "Financial Services",
+      "sub_industry": "Investment Management",
+      "headcount": 500,
+      "headcount_range": "201-500",
+      "revenue_estimate": 75000000,
+      "funding_stage": "Series C",
+      "total_funding": 120000000,
+      "last_funding_date": "2024-01-20",
+      "technologies": ["Salesforce", "HubSpot", "Slack", "AWS"],
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "country": "US"
+      },
+      "linkedin_url": "https://linkedin.com/company/acmecorp",
+      "enriched_date": "2025-12-01"
+    },
+    {
+      "account_id": "001EXAMPLE002",
+      "name": "TechStart Inc",
+      "domain": "techstart.io",
+      "industry": "SaaS",
+      "sub_industry": "Developer Tools",
+      "headcount": 85,
+      "headcount_range": "51-100",
+      "revenue_estimate": 8000000,
+      "funding_stage": "Series A",
+      "total_funding": 15000000,
+      "last_funding_date": "2025-03-10",
+      "technologies": ["Salesforce", "Intercom", "GitHub", "GCP"],
+      "location": {
+        "city": "Austin",
+        "state": "TX",
+        "country": "US"
+      },
+      "linkedin_url": "https://linkedin.com/company/techstart",
+      "enriched_date": "2025-12-01"
+    }
+  ],
+  "_metadata": {
+    "exported_date": "2025-12-01",
+    "source": "Clay Enrichment",
+    "total_records": 2
+  }
+}

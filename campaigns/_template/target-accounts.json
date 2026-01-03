@@ -1,0 +1,61 @@
+{
+  "campaign_id": "YYYY-QQ-campaign-name",
+  "segment_criteria": {
+    "industry": ["SaaS"],
+    "headcount_min": 100,
+    "headcount_max": 500,
+    "geography": ["US"],
+    "triggers": ["series_a_funding", "new_vp_sales_hire"]
+  },
+  "target_accounts": [
+    {
+      "account_id": "target_001",
+      "name": "Target Company 1",
+      "domain": "targetco1.com",
+      "industry": "SaaS",
+      "headcount": 150,
+      "trigger_detected": "series_a_funding",
+      "trigger_date": "2025-10-15",
+      "trigger_source": "Crunchbase",
+      "contacts": [
+        {
+          "name": "Jane Smith",
+          "title": "VP of Sales",
+          "email": "jane@targetco1.com",
+          "linkedin": "https://linkedin.com/in/janesmith",
+          "persona_match": "primary"
+        }
+      ],
+      "research_notes": "Recently raised $15M Series A. Hired VP of Sales 2 months ago. Using competitor X.",
+      "status": "not_contacted",
+      "outreach_history": []
+    },
+    {
+      "account_id": "target_002",
+      "name": "Target Company 2",
+      "domain": "targetco2.io",
+      "industry": "SaaS",
+      "headcount": 280,
+      "trigger_detected": "new_vp_sales_hire",
+      "trigger_date": "2025-11-01",
+      "trigger_source": "LinkedIn",
+      "contacts": [
+        {
+          "name": "Bob Johnson",
+          "title": "Head of Revenue",
+          "email": "bob@targetco2.io",
+          "linkedin": "https://linkedin.com/in/bobjohnson",
+          "persona_match": "primary"
+        }
+      ],
+      "research_notes": "New Head of Revenue started November. Company is in growth mode.",
+      "status": "not_contacted",
+      "outreach_history": []
+    }
+  ],
+  "_metadata": {
+    "created_date": "2025-12-01",
+    "last_updated": "2025-12-01",
+    "total_accounts": 2
+  }
+}
