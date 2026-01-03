@@ -1,0 +1,63 @@
+{
+  "transcripts": [
+    {
+      "transcript_id": "gong_789456123",
+      "salesforce_opportunity_id": "006EXAMPLE001",
+      "salesforce_account_id": "001EXAMPLE001",
+      "call_date": "2025-05-20T14:30:00Z",
+      "call_type": "Discovery",
+      "duration_minutes": 32,
+      "participants": [
+        {
+          "name": "Sarah Johnson",
+          "role": "Account Executive",
+          "type": "internal"
+        },
+        {
+          "name": "Michael Chen",
+          "title": "VP of Operations",
+          "company": "Acme Corp",
+          "type": "external",
+          "contact_id": "003EXAMPLE001"
+        }
+      ],
+      "transcript": "Sarah: Thanks for taking the time today, Michael. I'd love to understand what's driving your interest in exploring solutions like ours.\n\nMichael: Sure. We've grown from 200 to 500 people in the last 18 months, and our current processes just aren't scaling. We're spending way too much time on manual work that should be automated.\n\nSarah: That's a common challenge we hear. Can you tell me more about which processes are causing the most pain?\n\nMichael: Mainly around data management and reporting. Our team is spending probably 20 hours a week just pulling reports together manually. It's not sustainable.\n\nSarah: How is that impacting the business?\n\nMichael: We're missing insights that could help us make better decisions. And frankly, our board is asking for more sophisticated reporting that we just can't deliver right now.\n\n...",
+      "summary": "Discovery call with Acme Corp VP of Operations. Company has grown rapidly (200 to 500 employees in 18 months) and current manual processes are not scaling. Key pain point is 20+ hours/week spent on manual reporting. Board pressure for better insights is driving urgency.",
+      "key_topics": ["scaling challenges", "manual reporting", "board requirements", "rapid growth"],
+      "next_steps": ["Send ROI calculator", "Schedule demo with analytics team"],
+      "sentiment": "positive"
+    },
+    {
+      "transcript_id": "gong_789456124",
+      "salesforce_opportunity_id": "006EXAMPLE002",
+      "salesforce_account_id": "001EXAMPLE002",
+      "call_date": "2025-08-05T10:00:00Z",
+      "call_type": "Discovery",
+      "duration_minutes": 25,
+      "participants": [
+        {
+          "name": "Sarah Johnson",
+          "role": "Account Executive",
+          "type": "internal"
+        },
+        {
+          "name": "Alex Rivera",
+          "title": "Head of Revenue",
+          "company": "TechStart Inc",
+          "type": "external",
+          "contact_id": "003EXAMPLE002"
+        }
+      ],
+      "transcript": "Sarah: Hey Alex, thanks for connecting. What prompted you to reach out?\n\nAlex: We just closed our Series A and one of the things our investors are pushing us on is building more repeatable sales processes. Right now everything is kind of ad hoc.\n\nSarah: Congratulations on the funding! What does ad hoc look like today?\n\nAlex: Well, I'm basically doing everything myself. We have two SDRs but there's no real system. I need to hire an AE and I realized I can't just have them figure it out like I did.\n\nSarah: Makes sense. So you're looking to systematize before you scale the team?\n\nAlex: Exactly. I've got maybe 3-4 months to get this figured out before we're expected to really ramp up pipeline.\n\n...",
+      "summary": "Discovery call with TechStart Inc Head of Revenue. Recently closed Series A and investors are pushing for repeatable sales processes. Currently everything is ad hoc with just 2 SDRs. Planning to hire AE and needs to systematize first. 3-4 month timeline to figure out processes before scaling.",
+      "key_topics": ["Series A", "repeatable processes", "team scaling", "investor pressure"],
+      "next_steps": ["Send case study from similar stage company", "Schedule follow-up demo"],
+      "sentiment": "positive"
+    }
+  ],
+  "_metadata": {
+    "exported_date": "2025-12-01",
+    "source": "Gong",
+    "total_records": 2
+  }
+}

@@ -1,0 +1,39 @@
+# Environment files
+.env
+scripts/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files with sensitive information (add your actual data files here)
+# Uncomment these if you want to keep real data out of git:
+# crm/deals.json
+# crm/accounts.json
+# transcripts/transcripts.json
+# personas/contacts.json
+
+# Temporary files
+*.tmp
+*.bak
+
+# Log files
+*.log
+
+# Original source files
+*.zip
+*.pdf

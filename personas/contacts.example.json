@@ -1,0 +1,54 @@
+{
+  "contacts": [
+    {
+      "contact_id": "003EXAMPLE001",
+      "salesforce_account_id": "001EXAMPLE001",
+      "name": "Michael Chen",
+      "email": "mchen@acmecorp.com",
+      "title": "VP of Operations",
+      "department": "Operations",
+      "seniority": "VP",
+      "role_in_deal": "Champion",
+      "linkedin_url": "https://linkedin.com/in/michaelchen",
+      "tenure_months": 24,
+      "previous_companies": ["BigCo Inc", "StartupXYZ"],
+      "background": "Operations leader with experience scaling teams through hypergrowth",
+      "enriched_date": "2025-12-01"
+    },
+    {
+      "contact_id": "003EXAMPLE003",
+      "salesforce_account_id": "001EXAMPLE001",
+      "name": "Jennifer Walsh",
+      "email": "jwalsh@acmecorp.com",
+      "title": "CFO",
+      "department": "Finance",
+      "seniority": "C-Suite",
+      "role_in_deal": "Decision Maker",
+      "linkedin_url": "https://linkedin.com/in/jenniferwalsh",
+      "tenure_months": 36,
+      "previous_companies": ["Enterprise Corp", "Finance Partners"],
+      "background": "Former investment banker, focused on operational efficiency",
+      "enriched_date": "2025-12-01"
+    },
+    {
+      "contact_id": "003EXAMPLE002",
+      "salesforce_account_id": "001EXAMPLE002",
+      "name": "Alex Rivera",
+      "email": "alex@techstart.io",
+      "title": "Head of Revenue",
+      "department": "Sales",
+      "seniority": "Director",
+      "role_in_deal": "Champion",
+      "linkedin_url": "https://linkedin.com/in/alexrivera",
+      "tenure_months": 8,
+      "previous_companies": ["SalesForce", "Gong"],
+      "background": "First revenue hire, building sales function from scratch post-Series A",
+      "enriched_date": "2025-12-01"
+    }
+  ],
+  "_metadata": {
+    "exported_date": "2025-12-01",
+    "source": "Clay Enrichment",
+    "total_records": 3
+  }
+}
